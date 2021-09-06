@@ -1,0 +1,18 @@
+zigbee:
+  serial: COM3
+  baudrate: 115200
+mqtt:
+  host: mqtthost
+  port: 9991
+  user_name: username
+  password: password
+  root_topic: root_topic
+units:
+  - type: climate
+    id: climate_1
+  - type: illuminance
+    id: illuminance_1
+  - type: light
+    id: light_1
+  - type: light
+    id: light_2
